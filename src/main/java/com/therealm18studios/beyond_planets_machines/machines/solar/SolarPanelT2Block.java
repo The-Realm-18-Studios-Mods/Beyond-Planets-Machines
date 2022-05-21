@@ -1,12 +1,11 @@
-package com.therealm18.beyond_planets_machines.machines.solar;
+package com.therealm18studios.beyond_planets_machines.machines.solar;
 
-import com.therealm18.beyond_planets_machines.machines.solar.tile.SolarPanelT1BlockEntity;
+import com.therealm18studios.beyond_planets_machines.machines.solar.tile.SolarPanelT2BlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.mrscauthd.beyond_earth.gauge.GaugeTextHelper;
 import net.mrscauthd.beyond_earth.gauge.GaugeValueHelper;
@@ -14,16 +13,16 @@ import net.mrscauthd.beyond_earth.machines.AbstractMachineBlock;
 
 import java.util.List;
 
-public class SolarPanelT1Block extends AbstractMachineBlock<SolarPanelT1BlockEntity> {
+public class SolarPanelT2Block extends AbstractMachineBlock<SolarPanelT2BlockEntity> {
 
-    public SolarPanelT1Block(BlockBehaviour.Properties properties) {
+    public SolarPanelT2Block(Properties properties) {
         super(properties);
     }
 
     @Override
     public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
         super.appendHoverText(itemstack, level, list, flag);
-        list.add(GaugeTextHelper.buildBlockTooltip(GaugeTextHelper.getGeneratingPerTickText(GaugeValueHelper.getEnergy(SolarPanelT1BlockEntity.ENERGY_PER_TICK))));
+        list.add(GaugeTextHelper.buildBlockTooltip(GaugeTextHelper.getGeneratingPerTickText(GaugeValueHelper.getEnergy(SolarPanelT2BlockEntity.ENERGY_PER_TICK))));
     }
 
     @Override
@@ -32,8 +31,8 @@ public class SolarPanelT1Block extends AbstractMachineBlock<SolarPanelT1BlockEnt
     }
 
     @Override
-    public SolarPanelT1BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-        return new SolarPanelT1BlockEntity(pos, state);
+    public SolarPanelT2BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+        return new SolarPanelT2BlockEntity(pos, state);
     }
 
 }

@@ -1,6 +1,6 @@
-package com.therealm18.beyond_planets_machines.registries;
+package com.therealm18studios.beyond_planets_machines.registries;
 
-import com.therealm18.beyond_planets_machines.BeyondPlanetsMachines;
+import com.therealm18studios.beyond_planets_machines.BeyondPlanetsMachines;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;

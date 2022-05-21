@@ -1,10 +1,10 @@
-package com.therealm18.beyond_planets_machines.registries;
+package com.therealm18studios.beyond_planets_machines.registries;
 
-import com.therealm18.beyond_planets_machines.BeyondPlanetsMachines;
-import com.therealm18.beyond_planets_machines.machines.solar.SolarPanelT1Block;
-import com.therealm18.beyond_planets_machines.machines.solar.SolarPanelT2Block;
-import com.therealm18.beyond_planets_machines.machines.solar.SolarPanelT3Block;
-import com.therealm18.beyond_planets_machines.machines.solar.SolarPanelT4Block;
+import com.therealm18studios.beyond_planets_machines.BeyondPlanetsMachines;
+import com.therealm18studios.beyond_planets_machines.machines.solar.SolarPanelT1Block;
+import com.therealm18studios.beyond_planets_machines.machines.solar.SolarPanelT2Block;
+import com.therealm18studios.beyond_planets_machines.machines.solar.SolarPanelT3Block;
+import com.therealm18studios.beyond_planets_machines.machines.solar.SolarPanelT4Block;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;

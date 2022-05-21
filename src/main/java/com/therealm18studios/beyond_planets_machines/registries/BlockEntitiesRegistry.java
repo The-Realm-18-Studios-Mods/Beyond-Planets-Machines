@@ -1,10 +1,10 @@
-package com.therealm18.beyond_planets_machines.registries;
+package com.therealm18studios.beyond_planets_machines.registries;
 
-import com.therealm18.beyond_planets_machines.BeyondPlanetsMachines;
-import com.therealm18.beyond_planets_machines.machines.solar.tile.SolarPanelT1BlockEntity;
-import com.therealm18.beyond_planets_machines.machines.solar.tile.SolarPanelT2BlockEntity;
-import com.therealm18.beyond_planets_machines.machines.solar.tile.SolarPanelT3BlockEntity;
-import com.therealm18.beyond_planets_machines.machines.solar.tile.SolarPanelT4BlockEntity;
+import com.therealm18studios.beyond_planets_machines.BeyondPlanetsMachines;
+import com.therealm18studios.beyond_planets_machines.machines.solar.tile.SolarPanelT1BlockEntity;
+import com.therealm18studios.beyond_planets_machines.machines.solar.tile.SolarPanelT2BlockEntity;
+import com.therealm18studios.beyond_planets_machines.machines.solar.tile.SolarPanelT3BlockEntity;
+import com.therealm18studios.beyond_planets_machines.machines.solar.tile.SolarPanelT4BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

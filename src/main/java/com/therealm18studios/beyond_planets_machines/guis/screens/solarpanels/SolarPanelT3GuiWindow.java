@@ -1,8 +1,8 @@
-package com.therealm18.beyond_planets_machines.guis.screens.solarpanels;
+package com.therealm18studios.beyond_planets_machines.guis.screens.solarpanels;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
-import com.therealm18.beyond_planets_machines.machines.solar.tile.SolarPanelT1BlockEntity;
+import com.therealm18studios.beyond_planets_machines.machines.solar.tile.SolarPanelT1BlockEntity;
 import net.minecraft.client.gui.GuiComponent;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.renderer.GameRenderer;
@@ -17,11 +17,11 @@ import net.mrscauthd.beyond_earth.gauge.GaugeTextHelper;
 import net.mrscauthd.beyond_earth.gauge.GaugeValueHelper;
 
 @OnlyIn(Dist.CLIENT)
-public class SolarPanelT2GuiWindow extends AbstractContainerScreen<SolarPanelT1Gui.GuiContainer> {
+public class SolarPanelT3GuiWindow extends AbstractContainerScreen<SolarPanelT1Gui.GuiContainer> {
 
     public static final ResourceLocation texture = new ResourceLocation(BeyondEarthMod.MODID, "textures/screens/solar_panel.png");
 
-    public SolarPanelT2GuiWindow(SolarPanelT1Gui.GuiContainer container, Inventory inventory, Component text) {
+    public SolarPanelT3GuiWindow(SolarPanelT1Gui.GuiContainer container, Inventory inventory, Component text) {
         super(container, inventory, text);
         this.imageWidth = 176;
         this.imageHeight = 166;

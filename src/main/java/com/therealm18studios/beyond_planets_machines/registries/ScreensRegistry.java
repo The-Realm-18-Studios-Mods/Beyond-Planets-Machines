@@ -1,10 +1,10 @@
-package com.therealm18.beyond_planets_machines.registries;
+package com.therealm18studios.beyond_planets_machines.registries;
 
-import com.therealm18.beyond_planets_machines.BeyondPlanetsMachines;
-import com.therealm18.beyond_planets_machines.guis.screens.solarpanels.SolarPanelT1Gui;
-import com.therealm18.beyond_planets_machines.guis.screens.solarpanels.SolarPanelT2Gui;
-import com.therealm18.beyond_planets_machines.guis.screens.solarpanels.SolarPanelT3Gui;
-import com.therealm18.beyond_planets_machines.guis.screens.solarpanels.SolarPanelT4Gui;
+import com.therealm18studios.beyond_planets_machines.BeyondPlanetsMachines;
+import com.therealm18studios.beyond_planets_machines.guis.screens.solarpanels.SolarPanelT1Gui;
+import com.therealm18studios.beyond_planets_machines.guis.screens.solarpanels.SolarPanelT2Gui;
+import com.therealm18studios.beyond_planets_machines.guis.screens.solarpanels.SolarPanelT3Gui;
+import com.therealm18studios.beyond_planets_machines.guis.screens.solarpanels.SolarPanelT4Gui;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

@@ -1,7 +1,7 @@
-package com.therealm18.beyond_planets_machines.guis.screens.solarpanels;
+package com.therealm18studios.beyond_planets_machines.guis.screens.solarpanels;
 
-import com.therealm18.beyond_planets_machines.machines.solar.tile.SolarPanelT3BlockEntity;
-import com.therealm18.beyond_planets_machines.registries.ScreensRegistry;
+import com.therealm18studios.beyond_planets_machines.machines.solar.tile.SolarPanelT3BlockEntity;
+import com.therealm18studios.beyond_planets_machines.registries.ScreensRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.world.entity.player.Inventory;
