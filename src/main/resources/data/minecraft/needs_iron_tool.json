@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "beyond_planets_machines:solar_panel_t1",
+    "beyond_planets_machines:solar_panel_t2",
+    "beyond_planets_machines:solar_panel_t3",
+    "beyond_planets_machines:solar_panel_t4"
+  ]
+}
