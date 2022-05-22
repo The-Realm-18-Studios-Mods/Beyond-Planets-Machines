@@ -1,0 +1,21 @@
+{
+  "group": "beyond_earth",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "scs",
+    "sss"
+  ],
+  "key": {
+    "s": {
+      "item": "beyond_planets_machines:solar_panel_t1"
+    },
+    "c": {
+      "item": "beyond_earth:compressed_desh"
+    }
+  },
+  "result": {
+    "item": "beyond_planets_machines:solar_panel_t2",
+    "count": 1
+  }
+}
