@@ -5,7 +5,7 @@ license="All rights reserved"
 [[mods]]
 modId="beyond_planets_machines"
 version="${file.jarVersion}"
-displayName="Beyond Planets Machines"
+displayName="Beyond Planets - Machines"
 credits="TheRealM18"
 authors="TheRealM18"
 description='''
