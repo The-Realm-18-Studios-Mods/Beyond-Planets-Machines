@@ -1,5 +1,5 @@
 {
-  "parent": "beyond_earth:block/solar_panel",
+  "parent": "beyond_planets_machines:block/solar_panel_t1",
   "display": {
     "thirdperson": {
       "rotation": [
