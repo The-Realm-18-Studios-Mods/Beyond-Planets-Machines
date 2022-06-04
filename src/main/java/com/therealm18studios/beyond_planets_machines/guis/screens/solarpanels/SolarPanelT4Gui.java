@@ -1,7 +1,7 @@
 package com.therealm18studios.beyond_planets_machines.guis.screens.solarpanels;
 
 import com.therealm18studios.beyond_planets_machines.machines.solar.tile.SolarPanelT4BlockEntity;
-import com.therealm18studios.beyond_planets_machines.registries.ScreensRegistry;
+import com.therealm18studios.beyond_planets_machines.registries.ContainerRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.world.entity.player.Inventory;
@@ -25,7 +25,7 @@ public class SolarPanelT4Gui {
         private SolarPanelT4BlockEntity blockEntity;
 
         public GuiContainer(int id, Inventory inv, SolarPanelT4BlockEntity blockEntity) {
-            super(ScreensRegistry.SOLAR_PANEL_T4_GUI.get(), id);
+            super(ContainerRegistry.SOLAR_PANEL_T4_GUI.get(), id);
             this.blockEntity = blockEntity;
 
             ContainerHelper.addInventorySlots(this, inv, 8, 84, this::addSlot);
