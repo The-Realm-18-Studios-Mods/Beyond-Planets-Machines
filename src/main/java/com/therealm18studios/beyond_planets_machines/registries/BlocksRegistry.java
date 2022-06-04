@@ -1,10 +1,8 @@
 package com.therealm18studios.beyond_planets_machines.registries;
 
 import com.therealm18studios.beyond_planets_machines.BeyondPlanetsMachines;
-import com.therealm18studios.beyond_planets_machines.machines.solar.SolarPanelT1Block;
-import com.therealm18studios.beyond_planets_machines.machines.solar.SolarPanelT2Block;
-import com.therealm18studios.beyond_planets_machines.machines.solar.SolarPanelT3Block;
-import com.therealm18studios.beyond_planets_machines.machines.solar.SolarPanelT4Block;
+import com.therealm18studios.beyond_planets_machines.machines.oxygenbubbledistributor.*;
+import com.therealm18studios.beyond_planets_machines.machines.solar.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -17,9 +15,16 @@ public class BlocksRegistry {
 
     public static DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, BeyondPlanetsMachines.MODID);
 
+
     //Solar Panels
     public static RegistryObject<Block> SOLAR_PANEL_BLOCK_T1 = BLOCKS.register("solar_panel_t1", () -> { return new SolarPanelT1Block(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 1f).requiresCorrectToolForDrops());});
     public static RegistryObject<Block> SOLAR_PANEL_BLOCK_T2 = BLOCKS.register("solar_panel_t2", () -> { return new SolarPanelT2Block(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 1f).requiresCorrectToolForDrops());});
     public static RegistryObject<Block> SOLAR_PANEL_BLOCK_T3 = BLOCKS.register("solar_panel_t3", () -> { return new SolarPanelT3Block(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 1f).requiresCorrectToolForDrops());});
     public static RegistryObject<Block> SOLAR_PANEL_BLOCK_T4 = BLOCKS.register("solar_panel_t4", () -> { return new SolarPanelT4Block(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 1f).requiresCorrectToolForDrops());});
+
+    //Oxygen Bubble Distributor
+    public static RegistryObject<Block> OXYGEN_BUBBLE_DISTRIBUTOR_BLOCK_T1 = BLOCKS.register("oxygen_bubble_distributor_t1", () -> { return new OxygenBubbleDistributorT1Block(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 1f).requiresCorrectToolForDrops());});
+    public static RegistryObject<Block> OXYGEN_BUBBLE_DISTRIBUTOR_BLOCK_T2 = BLOCKS.register("oxygen_bubble_distributor_t2", () -> { return new OxygenBubbleDistributorT2Block(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 1f).requiresCorrectToolForDrops());});
+//    public static RegistryObject<Block> OXYGEN_BUBBLE_DISTRIBUTOR_BLOCK_T3 = BLOCKS.register("oxygen_bubble_distributor_t3", () -> { return new OxygenBubbleDistributorT3Block(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 1f).requiresCorrectToolForDrops());});
+//    public static RegistryObject<Block> OXYGEN_BUBBLE_DISTRIBUTOR_BLOCK_T4 = BLOCKS.register("oxygen_bubble_distributor_t4", () -> { return new OxygenBubbleDistributorT4Block(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 1f).requiresCorrectToolForDrops());});
 }
