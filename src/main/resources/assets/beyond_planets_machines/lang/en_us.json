@@ -3,6 +3,11 @@
   "block.beyond_planets_machines.solar_panel_t2": "Solar Panel T2",
   "block.beyond_planets_machines.solar_panel_t3": "Solar Panel T3",
   "block.beyond_planets_machines.solar_panel_t4": "Solar Panel T4",
+
+  "container.beyond_planets_machines.solar_panel_t1": "Solar Panel T1",
+  "container.beyond_planets_machines.solar_panel_t2": "Solar Panel T2",
+  "container.beyond_planets_machines.solar_panel_t3": "Solar Panel T3",
+  "container.beyond_planets_machines.solar_panel_t4": "Solar Panel T4",
   
   "itemGroup.beyond_planets_machines.tab_machines": "BPM - Machines"
 }

@@ -2,7 +2,7 @@ package com.therealm18studios.beyond_planets_machines.guis.screens.solarpanels;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
-import com.therealm18studios.beyond_planets_machines.machines.solar.tile.SolarPanelT1BlockEntity;
+import com.therealm18studios.beyond_planets_machines.machines.solar.tile.SolarPanelT4BlockEntity;
 import net.minecraft.client.gui.GuiComponent;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.renderer.GameRenderer;
@@ -17,11 +17,11 @@ import net.mrscauthd.beyond_earth.gauge.GaugeTextHelper;
 import net.mrscauthd.beyond_earth.gauge.GaugeValueHelper;
 
 @OnlyIn(Dist.CLIENT)
-public class SolarPanelT4GuiWindow extends AbstractContainerScreen<SolarPanelT1Gui.GuiContainer> {
+public class SolarPanelT4GuiWindow extends AbstractContainerScreen<SolarPanelT4Gui.GuiContainer> {
 
     public static final ResourceLocation texture = new ResourceLocation(BeyondEarthMod.MODID, "textures/screens/solar_panel.png");
 
-    public SolarPanelT4GuiWindow(SolarPanelT1Gui.GuiContainer container, Inventory inventory, Component text) {
+    public SolarPanelT4GuiWindow(SolarPanelT4Gui.GuiContainer container, Inventory inventory, Component text) {
         super(container, inventory, text);
         this.imageWidth = 176;
         this.imageHeight = 166;
@@ -47,7 +47,7 @@ public class SolarPanelT4GuiWindow extends AbstractContainerScreen<SolarPanelT1G
     protected void renderLabels(PoseStack ms, int p_97809_, int p_97810_) {
         super.renderLabels(ms, p_97809_, p_97810_);
 
-        SolarPanelT1BlockEntity blockEntity = this.getMenu().getBlockEntity();
+        SolarPanelT4BlockEntity blockEntity = this.getMenu().getBlockEntity();
         IEnergyStorage energyStorage = blockEntity.getPrimaryEnergyStorage();
 
         this.font.draw(ms, GaugeTextHelper.getStoredText(GaugeValueHelper.getEnergy(energyStorage.getEnergyStored())).build(), this.titleLabelY, 28, 0x3C3C3C);

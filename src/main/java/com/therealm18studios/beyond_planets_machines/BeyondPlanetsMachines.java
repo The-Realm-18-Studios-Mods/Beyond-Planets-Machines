@@ -3,7 +3,7 @@ package com.therealm18studios.beyond_planets_machines;
 import com.therealm18studios.beyond_planets_machines.registries.BlockEntitiesRegistry;
 import com.therealm18studios.beyond_planets_machines.registries.BlocksRegistry;
 import com.therealm18studios.beyond_planets_machines.registries.ItemsRegistry;
-import com.therealm18studios.beyond_planets_machines.registries.ScreensRegistry;
+import com.therealm18studios.beyond_planets_machines.registries.ContainerRegistry;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -20,6 +20,6 @@ public class BeyondPlanetsMachines
         ItemsRegistry.ITEMS.register(bus);
         BlocksRegistry.BLOCKS.register(bus);
         BlockEntitiesRegistry.BLOCK_ENTITIES.register(bus);
-        ScreensRegistry.SCREENS.register(bus);
+        ContainerRegistry.SCREENS.register(bus);
     }
 }
